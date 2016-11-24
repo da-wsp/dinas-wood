@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'museo300';
+  src: url('http://dinas.da-wsp.com.ua/catalog/view/theme/pav_styleshop/stylesheet/../fonts/museo300-regular-webfont.eot');
+  src: url('http://dinas.da-wsp.com.ua/catalog/view/theme/pav_styleshop/stylesheet/../fonts/museo300-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://dinas.da-wsp.com.ua/catalog/view/theme/pav_styleshop/stylesheet/../fonts/museo300-regular-webfont.woff') format('woff'), url('http://dinas.da-wsp.com.ua/catalog/view/theme/pav_styleshop/stylesheet/../fonts/museo300-regular-webfont.ttf') format('truetype'), url('http://dinas.da-wsp.com.ua/catalog/view/theme/pav_styleshop/stylesheet/../fonts/museo300-regular-webfont.svg#museo300') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

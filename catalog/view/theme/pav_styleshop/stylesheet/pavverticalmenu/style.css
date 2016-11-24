@@ -1,0 +1,15 @@
+.pav-verticalmenu{
+	position: inherit;	
+	
+}
+.pav-verticalmenu .mega-group .caret {
+  display: list;
+}
+.pav-verticalmenu .mega-col .mega-col-inner > ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+.pav-verticalmenu .dropdown-submenu:hover .dropdown-menu {
+  display: list-item;
+}

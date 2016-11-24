@@ -1,0 +1,137 @@
+.required {
+  color: #FF0000;
+  font-weight: normal;
+  font-size: 13px;
+}
+.success,
+.warning,
+.attention,
+.information {
+  padding: 10px 10px 10px 33px;
+  margin: 20px 0;
+  color: #555555;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.success .close,
+.warning .close,
+.attention .close,
+.information .close {
+  float: right;
+  padding-top: 4px;
+  padding-right: 4px;
+  cursor: pointer;
+}
+.attention {
+  background: #FFF5CC url('http://dinas.da-wsp.com.ua/catalog/view/theme/pav_styleshop/stylesheet/../image/mobile/attention.png') 10px center no-repeat;
+  border: 1px solid #F2DD8C;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.warning {
+  background: #FFD1D1 url('http://dinas.da-wsp.com.ua/catalog/view/theme/pav_styleshop/stylesheet/../image/mobile/warning.png') 10px center no-repeat;
+  border: 1px solid #F8ACAC;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.success {
+  background: #EAF7D9 url('http://dinas.da-wsp.com.ua/catalog/view/theme/pav_styleshop/stylesheet/../image/mobile/success.png') 10px center no-repeat;
+  border: 1px solid #BBDF8D;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.help {
+  color: #999;
+  font-size: 10px;
+  font-weight: normal;
+  display: block;
+}
+.error {
+  display: block;
+  color: #FF0000;
+  margin-top: 5px;
+}
+.welcome {
+  margin-right: 23%;
+}
+.welcome a {
+  color: #3bac53;
+}
+h1,
+.h1 {
+  font-size: 24px;
+  line-height: 46.5px;
+}
+h1 small,
+.h1 small {
+  font-size: 21px;
+}
+@media (max-width: 767px) {
+  h1,
+  .h1 {
+    font-size: 22px;
+  }
+}
+h2,
+.h2 {
+  font-size: 18px;
+}
+h3,
+.h3 {
+  font-size: 19px;
+  line-height: 31px;
+}
+h3 small,
+.h3 small {
+  font-size: 19px;
+}
+h4,
+.h4 {
+  line-height: 31px;
+}
+h5,
+.h5 {
+  font-size: 13px;
+  line-height: 31px;
+}
+h5 small,
+.h5 small {
+  font-size: 12px;
+}
+h6,
+.h6 {
+  font-size: 12px;
+  line-height: 31px;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: #353d41;
+  text-transform: ;
+  font-size: 16px;
+}
+#content h1 {
+  font-size: 24px;
+  text-transform: capitalize;
+}

@@ -1,0 +1,55 @@
+.pav-megamenu .navbar-nav > li > a {
+  color: #FFFFFF;
+}
+.pav-megamenu .navbar .nav > li.home a {
+  background-image: url('http://dinas.da-wsp.com.ua/catalog/view/theme/pav_styleshop/image/mobile/icon-home.png') !important;
+  background-position: 13px 16px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+.pav-megamenu .navbar-nav > li:hover {
+  background: #3bac53;
+}
+.pav-megamenu .navbar-nav > li:hover >a {
+  color: #FFFFFF;
+}
+.pav-megamenu .navbar-nav > li:hover >a:before {
+  background-color: transparent;
+}
+.pav-megamenu .navbar-nav > li > a {
+  border-color: #333;
+}
+.pav-megamenu .navbar-nav > li > a:hover,
+.pav-megamenu .navbar-nav > li > a:active,
+.pav-megamenu .navbar-nav > li > a:focus {
+  color: #FFFFFF !important;
+  border-color: transparent !important;
+}
+.pav-megamenu .navbar-nav > li.first >a {
+  border-left: none;
+}
+.pav-megamenu .navbar-default .navbar-nav > .dropdown > a .caret:before {
+  color: #FFFFFF;
+}
+.pav-megamenu .navbar-default .navbar-nav > .dropdown:hover > a .caret:before,
+.pav-megamenu .navbar-default .navbar-nav > .dropdown:active > a .caret:before {
+  color: #FFFFFF;
+}
+.pav-megamenu .navbar-default .navbar-nav > li.last > a {
+  border-left: none !important;
+}
+#pav-verticalmenu .box-heading {
+  -webkit-border-radius: 4px 4px 0 0;
+  -moz-border-radius: 4px 4px 0 0;
+  -ms-border-radius: 4px 4px 0 0;
+  -o-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+#pav-verticalmenu .box-content {
+  border: 2px solid #f6bb42;
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  -ms-border-radius: 0 0 4px 4px;
+  -o-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}

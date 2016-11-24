@@ -1,0 +1,193 @@
+.form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #93999d;
+}
+.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  padding: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  -webkit-transition: all 0.15s linear 0s;
+  transition: all 0.15s linear 0s;
+}
+.tabs-group input[type="text"],
+.tabs-group input[type="password"] {
+  height: 33px;
+  padding: 5px;
+}
+input,
+button,
+select,
+textarea {
+  padding: 5px;
+  border: 1px solid #ebeef2;
+  color: #93999d;
+  outline: none;
+}
+input:hover,
+input:focus,
+button:hover,
+button:focus,
+select:hover,
+select:focus,
+textarea:hover,
+textarea:focus {
+  outline: none !important;
+}
+select {
+  padding: 4px;
+  cursor: pointer;
+}
+input[type="image"] {
+  border: 0;
+}
+.btn-group .btn.dropdown-toggle.btn-theme-normal {
+  text-transform: inherit;
+  padding: 4px;
+}
+.btn-group .btn.dropdown-toggle.btn-theme-normal:hover,
+.btn-group .btn.dropdown-toggle.btn-theme-normal:active,
+.btn-group .btn.dropdown-toggle.btn-theme-normal:focus {
+  background-color: #FFFFFF;
+  color: #93999d;
+  border-color: #dcdcdc;
+}
+.btn-group .btn.dropdown-toggle.btn-theme-normal:hover .fa,
+.btn-group .btn.dropdown-toggle.btn-theme-normal:active .fa,
+.btn-group .btn.dropdown-toggle.btn-theme-normal:focus .fa {
+  color: #93999d;
+}
+.btn {
+  text-transform: uppercase;
+}
+.btn.btn-theme-default {
+  text-align: center;
+  background-color: #384044;
+  color: #FFFFFF;
+  padding: 4px 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.btn.btn-theme-default.btn-small {
+  padding: 0 5px 2px;
+  text-transform: capitalize;
+}
+.btn.btn-danger {
+  margin: 10px;
+  border-color: transparent;
+}
+.btn.btn-theme-normal {
+  background-color: transparent;
+  color: #93999d;
+  border: 1px solid #dcdcdc;
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.btn.btn-theme-normal .fa {
+  color: #93999d;
+}
+.btn.btn-theme-normal:hover,
+.btn.btn-theme-normal:focus {
+  color: #3bac53;
+  border-color: #3bac53;
+}
+.btn.btn-theme-normal:hover .fa,
+.btn.btn-theme-normal:focus .fa {
+  color: #3bac53;
+}
+.btn.btn-shopping-cart {
+  padding: 5px 10px;
+  background: #424242;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 32px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.btn.btn-shopping-cart .fa {
+  line-height: 21px;
+  margin-right: 5px;
+}
+.btn.btn-shopping-cart > * {
+  float: left;
+}
+.btn.blue {
+  background-color: #3bac53;
+  border: 0;
+  color: #FFFFFF;
+  -webkit-transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
+}
+.btn.blue span + span {
+  border: 0;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-family: "Alegreya", serif;
+}
+.btn.blue .fa {
+  width: 32px;
+  height: 32px;
+  font-size: 15px;
+  line-height: 32px;
+  background-color: #2e8641;
+}
+.btn.blue:hover,
+.btn.blue:focus {
+  background-color: #f6bb42;
+  color: #FFFFFF;
+}
+.btn.blue:hover .fa,
+.btn.blue:focus .fa {
+  background-color: #f4a911;
+}
+.btn:hover,
+.btn:focus {
+  color: #FFFFFF;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #3bac53;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.05,0.06,0.05,0.95);
+  transition: all 0.6s cubic-bezier(0.05,0.06,0.05,0.95);
+}
+.control-label {
+  padding-top: 7px;
+  color: #3e474b;
+  font-size: 14px;
+  font-weight: normal;
+}

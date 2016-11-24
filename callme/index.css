@@ -1,0 +1,47 @@
+#tel {
+	position: absolute;
+	top: 20px;
+	left: 10px;
+    width: 45px;
+    height: 46px;
+    background-image: url(image/tel.png);
+    background-repeat: no-repeat;
+	float: left;
+}
+
+#circle {
+	position: absolute;
+	top: -2px;
+	right: 20px;
+    width: 75px;
+    height: 75px;
+    background-image: url(image/circle.png);
+    background-repeat: no-repeat;
+	float: left;
+}
+
+#tel:hover {
+    opacity: 0.5;
+}
+
+#number1, #number2, #number3{
+	font-weight: bold;
+	}
+	
+#number1 {
+	position: absolute;
+	top: -20px;
+	left: 70px;
+}
+
+#number2 {
+	position: absolute;
+	top: 0px;
+	left: 70px;
+}
+
+#number3 {
+	position: absolute;
+	top: 20px;
+	left: 70px;
+}

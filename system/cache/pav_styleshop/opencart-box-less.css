@@ -1,0 +1,80 @@
+.box-outer {
+  margin: 0;
+}
+.box {
+  margin-bottom: 20px;
+}
+.box .box-heading {
+  color: #FFFFFF;
+  position: relative;
+  line-height: normal;
+  text-transform: uppercase;
+  font-family: "museo300", sans-serif;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+.box .box-heading.icon .fa {
+  display: none;
+}
+.box .box-content {
+  background: #FFFFFF;
+  border: 1px solid #ebeef2;
+  border-right: none;
+}
+.box .box-content .product-grid {
+  border: 0;
+  padding: 0;
+}
+.box.highlighted .box-heading {
+  background-color: #f6bb42;
+  letter-spacing: normal;
+}
+.box.orange span.title {
+  background-color: #3bac53;
+}
+.box.dark .box-heading {
+  background-color: #3bac53;
+}
+.box.green .box-heading {
+  background-color: #3bac53;
+}
+.box.maroon .box-heading {
+  background-color: #3bac53;
+}
+.box.blue .box-heading {
+  background-color: #5e90af;
+}
+.box.gray .box-heading {
+  background-color: #3bac53;
+}
+.box.pink .box-heading {
+  background-color: #3bac53;
+}
+.box.red .box-heading {
+  background-color: #424242;
+}
+.box.white .box-heading {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.box.white .box-heading .shapes.right {
+  border-left-color: #ebeef2;
+}
+.box.white .box-heading .line {
+  background-color: #ebeef2;
+}
+.box .nav-tabs {
+  font-size: 13px;
+  border-bottom: 1px solid #ebeef2;
+}
+.box .nav-tabs a {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+.box.box-product .box-content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
