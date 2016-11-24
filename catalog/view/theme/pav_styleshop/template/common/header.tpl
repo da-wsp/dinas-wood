@@ -140,6 +140,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 });
 //--></script>
 <?php } ?>
+
 <?php echo $google_analytics; ?>
 </head>
 <body id="offcanvas-container" class="offcanvas-container layout-<?php echo $layoutMode; ?> fs<?php echo $themeConfig['fontsize'];?> <?php echo $helper->getPageClass();?> <?php echo $helper->getParam('body_pattern','');?>">
@@ -272,22 +273,19 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 				<div class="row">
 					<div class="container-fluid">
 					  <div class="row" style="margin-top: 20px;">
-						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-sm-offset-1 logo">
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-sm-offset-1 logo">
 							<?php if( $logoType=='logo-theme'){ ?>
 							<div id="logo-theme"><a href="<?php echo $home; ?>"><span><?php echo $name; ?></span></a></div>
 							<?php } elseif ($logo) { ?>
-							<div id="logo"><a href="<?php echo $home; ?>"><img style="
-							margin-left: 50px;
-							height: 120px;
-							margin-top: -18px;
-							border-radius: 5px;
-							opacity: 0.75;
-							" src="<?php echo $logo; ?>"
-							title="<?php echo $name; ?>"
-							alt="<?php echo $name; ?>" /></a></div>
+							<div id="logo"><a href="<?php echo $home; ?>">
+							<img class="logo-img"
+                                src="<?php echo $logo; ?>"
+                                title="<?php echo $name; ?>"
+                                alt="<?php echo $name; ?>" />
+                            </a></div>
 							<?php } ?>					
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"  style="margin-top: 17px; margin-left: 120px; border-radius: 5px; background-color: #ffffff; opacity: 0.75; width: 380px; height: 85px;">
+						<div class="phones col-lg-4 col-md-4 col-sm-9 col-xs-12">
 								<p>
 									<link href="callme/index.css" rel="stylesheet" />
 								</p>
@@ -336,8 +334,8 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 					
 						
 
-<div class="col-xs-5" style="margin: 30px 0 0 70px;">
-<p style="font-variant: small-caps; font-style: italic; color: #ffffff; font-size: 35px;">Мебель с которой хочется жить!</p>
+<div style="margin: 30px 0 0 70px;">
+<p style="font-variant: small-caps; font-style: italic; color: #ffffff; font-size: 30px;">Мебель с которой хочется жить!</p>
 </div>					
 					
 				</div>
@@ -520,11 +518,13 @@ $class = $helper->calculateSpans( $ospans, $cols );
 <?php if( isset($themeConfig['enable_offsidebars']) && $themeConfig['enable_offsidebars'] ) { ?>
 <section id="columns" class="offcanvas-siderbars">
 <div class="row visible-xs"><div class="container"> 
+<!--
 	<div class="offcanvas-sidebars-buttons">
 		<button type="button" data-for="column-left" class="pull-left btn btn-danger btn-theme-default"><i class="fa fa-sort-amount-asc"></i> <?php echo $this->language->get('text_sidebar_left'); ?></button>
 		
 		<button type="button" data-for="column-right" class="pull-right btn btn-danger btn-theme-default"><?php echo $this->language->get('text_sidebar_right'); ?> <i class="fa fa-sort-amount-desc"></i></button>
 	</div>
+-->
 </div></div>
 <?php }else { ?>
 <section id="columns">
